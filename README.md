@@ -40,7 +40,7 @@ Libraries used:<br/>
 ->'Image-URL-S', 'Image-URL-M', 'Image-URL-L' columns are removed as we do not need them and rhey might skew the data.<br>
 ->We calculate the Manhattan distance, Euclidean distance and Minkowski distance.<br>
 ->We find the nearest neighbour to implement a simple popularity based Recommendation system.<br>
-->It shows us Manhattan distance between user 192762 with 500 other users distance to suggest book.
+->It shows us Manhattan distance between user 192762 with 500 other users distance to suggest book.<br>
 <br>
 Librarires used:<br>
 ->Numpy<br>
