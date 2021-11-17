@@ -15,3 +15,10 @@ We have designed various ML models for a Book Recommendation System using Python
 ->In this model, we use the surprise library in Python. Surprise stands for Simple Python Recommendation System Engine.We import Reader,Dataset and SVD.<br/>
 ->This model uses the famous SVD algorithm. An empty list is declared and the data extracted using Dataset is iterated over all algorithms in SVD to be cross-validated.<br/>
 ->It then uses the df data to find the books read by the users and their rating and recommends books accordingly.<br/>
+<br/>
+Libraries used:<br/>
+->Pandas<br/>
+->Numpy<br/>
+->Surprise<br/>
+->Matplotlib<br/>
+->Seaborn<br/>
