@@ -42,7 +42,7 @@ Libraries used:<br/>
 ->We find the nearest neighbour to implement a simple popularity based Recommendation system.<br>
 ->It shows us Manhattan distance between user 192762 with 500 other users distance to suggest book.<br>
 <br>
-Librarires used:<br>
+Libraries used:<br>
 ->Numpy<br>
 ->Pandas<br>
 ->Matplotlib<br>
