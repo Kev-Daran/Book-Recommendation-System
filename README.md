@@ -35,3 +35,4 @@ Libraries used:<br/>
 ->Numpy<br/>
 ->Scipy<br/>
 
+## Algorithm 3-Using K Nearest Neighbour
