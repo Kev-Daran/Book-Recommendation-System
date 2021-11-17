@@ -26,7 +26,7 @@ Libraries used:<br/>
 ## Algorithm 2-Using SVD and Cosine Similarity
 ->In the second model,the book,user and rating data are merged according to the ISBN of the books and the user-id of each user.<br/>
 ->Duplicate columns for the new data is removed.<br/>
-->A pivot matrix is created for the data to pivot the columns and replace NA with 0.>br/>
+->A pivot matrix is created for the data to pivot the columns and replace NA with 0.<br/>
 ->SVD is used for matrix factorization of the pivot matrix.<br/>
 ->Cosine similarity function is declared in order to find the most similar books to a particular chosen book using the angles between them. It doesn't depend on Euclidean distance like KNN Algorithm.<br/>
 <br/>
