@@ -37,7 +37,7 @@ Libraries used:<br/>
 
 ## Algorithm 3-Using K Nearest Neighbour
 ->In the third model, after preprocessing data, user and rating data are merged according to the ISBN of the books and the user-id of each user.<br/>
-->'Image-URL-S', 'Image-URL-M', 'Image-URL-L' columns are removed as we do not need them and rhey might skew the data.<br>
+->'Image-URL-S', 'Image-URL-M', 'Image-URL-L' columns are removed as we do not need them and they might skew the data.<br>
 ->We calculate the Manhattan distance, Euclidean distance and Minkowski distance.<br>
 ->We find the nearest neighbour to implement a simple popularity based Recommendation system.<br>
 ->It shows us Manhattan distance between user 192762 with 500 other users distance to suggest book.<br>
