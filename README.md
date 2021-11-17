@@ -36,7 +36,8 @@ Libraries used:<br/>
 ->Scipy<br/>
 
 ## Algorithm 3-Using K Nearest Neighbour
-
+->In the third model, after preprocessing data,
+<br>
 Librarires used:<br>
 ->Numpy<br>
 ->Pandas<br>
