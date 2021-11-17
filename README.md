@@ -8,4 +8,10 @@ A recommendation system helps an organization to create loyal customers and buil
 A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on his interest. The books recommendation system is used by online websites which provide ebooks like google play books, open library, good Read’s, etc.
 
 We have designed various ML models for a Book Recommendation System using Python and Google Colab.
-## Algorithm 1
+## Algorithm 1-Using Demographic and Collaborative Filtering
+->The first ML model uses demographic filtering to give the top 20 highest rated books and authors.
+->It uses collaborative filtering to predict the books to be recommended to the user.
+->Collaborative based filtering recommender systems are based on past interactions of users and target items.  In simple words here, we try to search for the look-alike customers and offer products based on what his or her lookalike has chosen. Let us understand with an example. X and Y are two similar users and X user has watched A, B, and C movie. And Y user has watched B, C, and D movie then we will recommend A movie to Y user and D movie to X user.
+->In this model, we use the surprise library in Python. Surprise stands for Simple Python Recommendation System Engine.We import Reader,Dataset and SVD.
+->This model uses the famous SVD algorithm. An empty list is declared and the data extracted using Dataset is iterated over all algorithms in SVD to be cross-validated.
+->It then uses the df data to find the books read by the users and their rating and recommends books accordingly.
