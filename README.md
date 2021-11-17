@@ -36,3 +36,10 @@ Libraries used:<br/>
 ->Scipy<br/>
 
 ## Algorithm 3-Using K Nearest Neighbour
+
+Librarires used:<br>
+->Numpy<br>
+->Pandas<br>
+->Matplotlib<br>
+->Seaborn<br>
+->Math<br>
